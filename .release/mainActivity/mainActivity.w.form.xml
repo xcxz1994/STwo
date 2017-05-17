@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cra2uEz" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cra2uEz" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/table/table,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cra2uEz{color: rgb(33, 33, 33)} .x-cards.cra2uEz{padding-top: 0} .panel.cra2uEz{border: 0} .panel.panel-default.cra2uEz{margin-bottom: 10px} .row.cra2uEz{margin: 0} .tb-nopadding.cra2uEz{padding: 0} .btn.cra2uEz i.cra2uEz{font-size: 20px} .btn.cra2uEz span.cra2uEz{font-size: 12px; font-weight: normal} .tb-img1.cra2uEz{width: 100%; height: 133px} .tb-img5.cra2uEz{width: 70%} .tb-img6.cra2uEz{width: 100%} .x-titlebar.cra2uEz{background-color: rgb(255, 68, 0)} .x-titlebar.cra2uEz .btn.cra2uEz{padding: 0} .x-titlebar.cra2uEz .btn-link.cra2uEz{height: auto} .tb-top.x-titlebar.cra2uEz .x-titlebar-title.tb-searchBox.cra2uEz{text-align: left; padding-top: 8px} .tb-searchBox.cra2uEz span.cra2uEz{font-size: 16px} .tb-searchBox.cra2uEz div.cra2uEz{height: 3px; border: 1px solid rgb(255, 255, 255); border-top: none} .tb-menu.table.cra2uEz &gt; tbody.cra2uEz &gt; tr.cra2uEz &gt; td.cra2uEz{border: 0} .tb-menu.table.cra2uEz &gt; tbody.cra2uEz &gt; tr.cra2uEz &gt; td.cra2uEz{padding-left: 0; padding-right: 0} .tb-line-right.cra2uEz{border-right: 1px solid rgba(90, 90, 90, 0.05)} .btn-group.cra2uEz{background-color: rgb(255, 255, 255)} .x-card.btn-group.cra2uEz .btn.active.cra2uEz{color: rgb(255, 68, 0)} .btn-group.cra2uEz .btn.cra2uEz i.cra2uEz{font-size: 30px; padding-bottom: 0} .tb-twoColList.col-xs-6.cra2uEz{padding: 10px} .tb-twoColList.col-xs-6.cra2uEz h5.cra2uEz{height: 45px; overflow: hidden}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onunLoad:modelUnLoad;onModelConstruct:modelModelConstruct;onLoad:modelLoad" __cid="cra2uEz" class="cra2uEz"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcUzEVRv-iosstatusbar cra2uEz" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+    <div class="x-panel-content tb-trans cra2uEz" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cra2uEz"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cra2uEz" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;slidable&quot;:false,&quot;swipe&quot;:false,&quot;wrap&quot;:false}" __cid="cra2uEz"> 
+        <div class="x-contents-content x-cards active cra2uEz" xid="homeContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cra2uEz"> 
+          <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-has-iosstatusbar pcAzyiUn-iosstatusbar cra2uEz" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+            <div class="x-panel-top cra2uEz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cra2uEz"> 
+              <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cra2uEz" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cra2uEz"> 
+                <div class="x-titlebar-left cra2uEz" xid="div6" __cid="cra2uEz"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cra2uEz" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;glyphicon glyphicon-qrcode&quot;,&quot;label&quot;:&quot;扫一扫&quot;}" __cid="cra2uEz"> 
+                    <i xid="i6" class="glyphicon glyphicon-qrcode cra2uEz" __cid="cra2uEz"/>  
+                    <span xid="span6" __cid="cra2uEz" class="cra2uEz">扫一扫</span> 
+                  </a> 
+                </div>  
+                <div class="x-titlebar-title tb-searchBox cra2uEz" xid="div1" bind-click="searchBtnClick" __cid="cra2uEz"> 
+                  <i xid="i10" class="icon-ios7-search-strong cra2uEz" __cid="cra2uEz"/>  
+                  <span style="font-size:small;" __cid="cra2uEz" class="cra2uEz">请输入查询的机构或教师</span>  
+                  <div __cid="cra2uEz" class="cra2uEz"/> 
+                </div>  
+                <div class="x-titlebar-right  cra2uEz" xid="div5" __cid="cra2uEz">
+                  <div class="empty cra2uEz" __cid="cra2uEz"/>
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cra2uEz" xid="button8" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-chatbubble&quot;,&quot;label&quot;:&quot;消息&quot;}" __cid="cra2uEz"> 
+                    <i xid="i8" class="icon-ios7-chatbubble cra2uEz" __cid="cra2uEz"/>  
+                    <span xid="span8" __cid="cra2uEz" class="cra2uEz">消息</span> 
+                  </a>
+                </div> 
+              </div> 
+            </div>
+            <div class="x-panel-content  x-scroll-view cra2uEz" xid="content3" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cra2uEz"> 
+              <div class="x-scroll cra2uEz" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" data-events="onPullDown:scrollViewPullDown" __cid="cra2uEz"> 
+                <div class="x-content-center x-pull-down container cra2uEz" style="display:none;" xid="div16" __cid="cra2uEz"> 
+                  <i class="x-pull-down-img glyphicon x-icon-pull-down cra2uEz" xid="i9" __cid="cra2uEz"/>  
+                  <span class="x-pull-down-label cra2uEz" xid="span17" __cid="cra2uEz">下拉刷新...</span> 
+                </div>  
+                <div class="x-scroll-content cra2uEz" xid="div17" __cid="cra2uEz"> 
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcYbayqu-iosstatusbar cra2uEz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+                    <div component="$model/UI2/system/components/bootstrap/carousel/carousel" class="x-carousel carousel cra2uEz" xid="carousel1" style="height:133px;" data-bind="component:{name:'$model/UI2/system/components/bootstrap/carousel/carousel'}" data-config="{&quot;auto&quot;:true,&quot;interval&quot;:5}" __cid="cra2uEz"> 
+                      <ol class="carousel-indicators cra2uEz" xid="ol1" __cid="cra2uEz"/>  
+                      <div class="x-contents carousel-inner cra2uEz" role="listbox" component="$model/UI2/system/components/justep/contents/contents" xid="contentsImg" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;routable&quot;:false,&quot;slidable&quot;:true,&quot;swipe&quot;:true,&quot;wrap&quot;:true}" __cid="cra2uEz"> 
+                        <div class="x-contents-content active cra2uEz" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cra2uEz"> 
+                          <img src="" alt="" xid="image13" bind-click="openPageClick" class="tb-img1 cra2uEz" pagename="" __cid="cra2uEz"/>
+                        </div> 
+                      </div> 
+                    </div>  
+                    <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYbayqu-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcJvAVva-iosstatusbar cra2uEz" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+                    <table class="table tb-menu cra2uEz" component="$model/UI2/system/components/bootstrap/table/table" xid="table1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/table/table'}" __cid="cra2uEz"> 
+                      <tbody class="x-list-template cra2uEz" xid="listTemplate2" __cid="cra2uEz"> 
+                        <tr xid="tr1" __cid="cra2uEz" class="cra2uEz"> 
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td1" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div2" __cid="cra2uEz"> 
+                              <img src="$model/UI2/STwo/main/img/menu1.png" alt="" xid="image3" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span7" __cid="cra2uEz" class="cra2uEz">英语</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td2" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div3" __cid="cra2uEz"> 
+                              <img src="$model/UI2/STwo/main/img/menu2.png" alt="" xid="image1" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span9" __cid="cra2uEz" class="cra2uEz">小语种</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td3" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div4" __cid="cra2uEz"> 
+                              <img src="$model/UI2/STwo/main/img/menu3.png" alt="" xid="image2" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span10" __cid="cra2uEz" class="cra2uEz">才艺</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td4" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div7" __cid="cra2uEz"> 
+                              <img alt="" xid="image8" src="$model/UI2/STwo/main/img/menu4.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span11" __cid="cra2uEz" class="cra2uEz">管理培训</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td5" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div8" __cid="cra2uEz"> 
+                              <img alt="" xid="image9" src="$model/UI2/STwo/main/img/menu5.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span12" __cid="cra2uEz" class="cra2uEz">就业技能</span> 
+                            </div> 
+                          </td> 
+                        </tr>  
+                        <tr xid="tr2" __cid="cra2uEz" class="cra2uEz"> 
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td6" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div2" __cid="cra2uEz"> 
+                              <img alt="" xid="image3" src="$model/UI2/STwo/main/img/menu6.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span19" __cid="cra2uEz" class="cra2uEz">职业资证</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td7" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div3" __cid="cra2uEz"> 
+                              <img alt="" xid="image1" src="$model/UI2/STwo/main/img/menu7.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span20" __cid="cra2uEz" class="cra2uEz">IT</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td8" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div4" __cid="cra2uEz"> 
+                              <img alt="" xid="image2" src="$model/UI2/STwo/main/img/menu8.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span10" __cid="cra2uEz" class="cra2uEz">学历教育</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./list.w" xid="td9" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div7" __cid="cra2uEz"> 
+                              <img alt="" xid="image8" src="$model/UI2/STwo/main/img/menu9.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span11" __cid="cra2uEz" class="cra2uEz">驾驶技能</span> 
+                            </div> 
+                          </td>  
+                          <td bind-click="openPageClick" pagename="./class.w" xid="td10" __cid="cra2uEz" class="cra2uEz"> 
+                            <div class="text-center cra2uEz" xid="div8" __cid="cra2uEz"> 
+                              <img alt="" xid="image9" src="$model/UI2/STwo/main/img/menu10.png" class="img-responsive center-block tb-img5 cra2uEz" __cid="cra2uEz"/>  
+                              <span xid="span12" __cid="cra2uEz" class="cra2uEz">分类</span> 
+                            </div> 
+                          </td> 
+                        </tr> 
+                      </tbody> 
+                    </table>  
+                    <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcJvAVva-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcF3aiqi-iosstatusbar cra2uEz" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+                    <div component="$model/UI2/system/components/bootstrap/row/row" class="row cra2uEz" xid="row1" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cra2uEz"> 
+                      <div class="col col-xs-6 cell tb-nopadding cra2uEz" xid="col1" __cid="cra2uEz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col7" __cid="cra2uEz">
+                            <p xid="p1" style="font-size:medium;height:100%;width:100%;" __cid="cra2uEz" class="cra2uEz">专题培训</p>  
+                            <p xid="p2" style="font-size:small;height:100%;width:100%;" __cid="cra2uEz" class="cra2uEz">专题活动描述</p>
+                          </div>  
+                          <div class="x-col cra2uEz" xid="col31" __cid="cra2uEz">
+                            <img src="$model/UI2/STwo/main/img/pic5.png" alt="" xid="image4" height="100%" style="width:100%;" __cid="cra2uEz" class="cra2uEz"/>
+                          </div>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col25" __cid="cra2uEz">
+                            <p xid="p3" style="font-size:medium;height:100%;width:100%;" __cid="cra2uEz" class="cra2uEz">9.9开讲啦！</p>  
+                            <p xid="p4" style="font-size:small;" __cid="cra2uEz" class="cra2uEz">专题活动描述</p>
+                          </div>  
+                          <div class="x-col cra2uEz" xid="col32" __cid="cra2uEz">
+                            <img src="$model/UI2/STwo/main/img/pic2.png" alt="" xid="image7" height="100%" style="width:100%;" __cid="cra2uEz" class="cra2uEz"/>
+                          </div>
+                        </div>
+                      </div>  
+                      <div class="col col-xs-6 cell tb-nopadding cra2uEz" xid="col2" __cid="cra2uEz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row12" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col35" __cid="cra2uEz">
+                            <p xid="p6" style="font-size:medium;height:100%;width:100%;" __cid="cra2uEz" class="cra2uEz">特价培训</p>  
+                            <p xid="p7" style="font-size:small;" __cid="cra2uEz" class="cra2uEz">培训课程1折起</p>
+                          </div>  
+                          <div class="x-col cra2uEz" xid="col36" __cid="cra2uEz">
+                            <img src="$model/UI2/STwo/main/img/pic1.png" alt="" xid="image6" height="100%" style="width:100%;" __cid="cra2uEz" class="cra2uEz"/>
+                          </div>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row13" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col37" __cid="cra2uEz">
+                            <p xid="p8" style="font-size:medium;height:100%;width:100%;" __cid="cra2uEz" class="cra2uEz">最低减99元</p>  
+                            <p xid="p9" style="font-size:small;" __cid="cra2uEz" class="cra2uEz">专题活动描述</p>
+                          </div>  
+                          <div class="x-col cra2uEz" xid="col38" __cid="cra2uEz"> 
+                            <img src="$model/UI2/STwo/main/img/pic3.png" alt="" xid="image5" height="100%" style="width:100%;" __cid="cra2uEz" class="cra2uEz"/>
+                          </div> 
+                        </div>
+                      </div> 
+                    </div>  
+                    <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcF3aiqi-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcv2u2Ub-iosstatusbar cra2uEz" xid="panel4" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                      <div class="x-col cra2uEz" xid="col39" __cid="cra2uEz">
+                        <h4 xid="h42" __cid="cra2uEz" class="cra2uEz">名师开课</h4>
+                      </div>  
+                      <div class="x-col cra2uEz" xid="col40" __cid="cra2uEz">
+                        <h4 xid="h43" __cid="cra2uEz" class="cra2uEz">距离开课</h4>
+                      </div>  
+                      <div class="x-col cra2uEz" xid="col41" __cid="cra2uEz">
+                        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-right cra2uEz" xid="button1" style="color:#8000FF;font-size:x-large;background-color:transparent;float:right;position:relative;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-camera&quot;,&quot;label&quot;:&quot;更多&quot;}" __cid="cra2uEz"> 
+                          <i xid="i7" class="linear linear-camera cra2uEz" __cid="cra2uEz"/>  
+                          <span xid="span13" __cid="cra2uEz" class="cra2uEz">更多</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div component="$model/UI2/system/components/bootstrap/row/row" class="row cra2uEz" xid="row2" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cra2uEz"> 
+                      <div class="col col-xs-4 cell tb-nopadding tb-line-right cra2uEz" xid="col17" __cid="cra2uEz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row15" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col44" style="height:100%;width:100%;" __cid="cra2uEz">
+                            <img src="" alt="" xid="image11" __cid="cra2uEz" class="cra2uEz"/>
+                          </div>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row16" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col45" __cid="cra2uEz"/>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row17" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col46" __cid="cra2uEz"/>
+                        </div>
+                      </div>  
+                      <div class="col col-xs-4 cell tb-nopadding tb-line-right cra2uEz" xid="col47" __cid="cra2uEz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row18" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col50" style="height:100%;width:100%;" __cid="cra2uEz">
+                            <img src="" alt="" xid="image12" __cid="cra2uEz" class="cra2uEz"/>
+                          </div>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row19" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col49" __cid="cra2uEz"/>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row20" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col48" __cid="cra2uEz"/>
+                        </div> 
+                      </div>  
+                      <div class="col col-xs-4 cell tb-nopadding tb-line-right cra2uEz" xid="col51" __cid="cra2uEz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row21" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col54" style="height:100%;width:100%;" __cid="cra2uEz">
+                            <img src="" alt="" xid="image14" __cid="cra2uEz" class="cra2uEz"/>
+                          </div>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row22" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col53" __cid="cra2uEz"/>
+                        </div>  
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row cra2uEz" xid="row23" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cra2uEz"> 
+                          <div class="x-col cra2uEz" xid="col52" __cid="cra2uEz"/>
+                        </div> 
+                      </div>
+                    </div>  
+                    <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcv2u2Ub-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcAzmU3e-iosstatusbar cra2uEz" xid="panel5" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cra2uEz"> 
+                    <h4 xid="h41" class="list-group-item text-black cra2uEz" __cid="cra2uEz">猜您喜欢
+                      <div class="x-content-center x-pull-up cra2uEz" xid="div18" __cid="cra2uEz"> 
+                        <span class="x-pull-up-label cra2uEz" xid="span18" __cid="cra2uEz">加载更多...</span> 
+                      </div>
+                    </h4>  
+                    <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcAzmU3e-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list x-flex cra2uEz" xid="list1" bind-click="listClick" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;goodsData&quot;,&quot;disableInfiniteLoad&quot;:false,&quot;disablePullToRefresh&quot;:false,&quot;limit&quot;:6}" __cid="cra2uEz"> 
+                  <ul class="x-list-template hide cra2uEz" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cra2uEz"> 
+                    <li xid="li1" class="col col-xs-6 tb-twoColList cra2uEz" __cid="cra2uEz"> 
+                      <div __cid="cra2uEz" class="cra2uEz"> 
+                        <img src="" alt="" class="img-rounded img-responsive media-object cra2uEz" xid="image18" bind-attr-src="$model.getImageUrl(val(&quot;fImg&quot;))" __cid="cra2uEz"/>  
+                        <div class="caption cra2uEz" __cid="cra2uEz"> 
+                          <h5 bind-text="ref('fTitle')" class="text-black cra2uEz" xid="h52" __cid="cra2uEz"/>  
+                          <div xid="div12" __cid="cra2uEz" class="cra2uEz"> 
+                            <span class="text-danger cra2uEz" xid="span14" __cid="cra2uEz">￥</span>  
+                            <span bind-text="ref('fPrice')" class="text-danger cra2uEz" xid="span15" __cid="cra2uEz"/> 
+                          </div>  
+                          <div xid="div13" class="text-muted cra2uEz" __cid="cra2uEz"> 
+                            <span xid="span24" __cid="cra2uEz" class="cra2uEz">月销</span>  
+                            <span xid="span26" bind-text="ref('fRecord')" __cid="cra2uEz" class="cra2uEz"/>  
+                            <span xid="span27" __cid="cra2uEz" class="cra2uEz">笔</span>  
+                            <span xid="span28" bind-text="ref('fPostage')" class="pull-right cra2uEz" __cid="cra2uEz"/> 
+                          </div> 
+                        </div>
+                      </div> 
+                    </li> 
+                  </ul> 
+                </div>
+              </div> 
+            </div>  
+            <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcAzyiUn-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+          </div> 
+        </div>  
+        <div class="x-contents-content x-cards cra2uEz" xid="microContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cra2uEz"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cra2uEz" xid="microContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;autoLoad&quot;:true}" __cid="cra2uEz"/> 
+        </div>  
+        <div class="x-contents-content x-cards cra2uEz" xid="foundContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cra2uEz"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cra2uEz" xid="foundContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;autoLoad&quot;:true}" __cid="cra2uEz"/> 
+        </div>  
+        <div class="x-contents-content x-cards cra2uEz" xid="shoppingContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onInactive:shoppingContentInactive" __cid="cra2uEz"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cra2uEz" xid="shoppingContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;autoLoad&quot;:true}" __cid="cra2uEz"/> 
+        </div>  
+        <div class="x-contents-content x-cards cra2uEz" xid="userContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cra2uEz"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cra2uEz" xid="userContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;autoLoad&quot;:true}" __cid="cra2uEz"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cra2uEz" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:55}" __cid="cra2uEz"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified x-card cra2uEz" xid="buttonGroup1" style="height:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cra2uEz"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top active cra2uEz" xid="homeBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-home&quot;,&quot;label&quot;:&quot;首页&quot;,&quot;target&quot;:&quot;homeContent&quot;}" __cid="cra2uEz"> 
+          <i xid="i1" class="icon-home icon cra2uEz" __cid="cra2uEz"/>  
+          <span xid="span1" __cid="cra2uEz" class="cra2uEz">首页</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cra2uEz" xid="microBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-envelope&quot;,&quot;label&quot;:&quot;微淘&quot;,&quot;target&quot;:&quot;microContent&quot;}" __cid="cra2uEz"> 
+          <i xid="i2" class="linear linear-sync cra2uEz" __cid="cra2uEz"/>  
+          <span xid="span2" __cid="cra2uEz" class="cra2uEz">机构</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cra2uEz" xid="foundBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-eye&quot;,&quot;label&quot;:&quot;发现&quot;,&quot;target&quot;:&quot;foundContent&quot;}" __cid="cra2uEz"> 
+          <i xid="i3" class="icon icon-eye cra2uEz" __cid="cra2uEz"/>  
+          <span xid="span3" __cid="cra2uEz" class="cra2uEz">发现</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cra2uEz" xid="shoppingCartBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-cart&quot;,&quot;label&quot;:&quot;购物车&quot;,&quot;target&quot;:&quot;shoppingContent&quot;}" __cid="cra2uEz"> 
+          <i xid="i4" class="icon-ios7-cart icon cra2uEz" __cid="cra2uEz"/>  
+          <span xid="span4" __cid="cra2uEz" class="cra2uEz">选课</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cra2uEz" xid="userBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-person&quot;,&quot;label&quot;:&quot;我的商城&quot;,&quot;target&quot;:&quot;userContent&quot;}" __cid="cra2uEz"> 
+          <i xid="i5" class="icon icon-person cra2uEz" __cid="cra2uEz"/>  
+          <span xid="span5" __cid="cra2uEz" class="cra2uEz">我的</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cra2uEz" class="cra2uEz">.x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: 55px;}.x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-bottom {height: 55px;}.iosstatusbar .x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcUzEVRv-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+  </div> 
+</div>
