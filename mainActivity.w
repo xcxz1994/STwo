@@ -192,7 +192,7 @@
                     <div component="$UI/system/components/justep/row/row" class="x-row" xid="row14">
    <div class="x-col" xid="col39"><h4 xid="h42"><![CDATA[名师开课]]></h4></div>
    <div class="x-col" xid="col40"><h4 xid="h43"><![CDATA[距离开课]]></h4></div>
-   <div class="x-col" xid="col41"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-right" label="更多" xid="button1" icon="linear linear-camera" style="color:#8000FF;font-size:x-large;background-color:transparent;float:right;position:relative;">
+   <div class="x-col" xid="col41"><a component="$UI/system/components/justep/button/button" class="btn" label="更多" xid="button1" icon="linear linear-camera" style="color:#8000FF;font-size:x-large;background-color:transparent;float:right;position:relative;">
    <i xid="i7" class="linear linear-camera"></i>
    <span xid="span13">更多</span></a></div></div><div component="$UI/system/components/bootstrap/row/row"
                       class="row" xid="row2" style="width:100%;"> 
@@ -241,9 +241,9 @@
                                 <span bind-text="ref('fPrice')" class="text-danger" xid="span15" /> 
                               </div>  
                               <div xid="div13" class="text-muted"> 
-                                <span xid="span24">月销</span>  
+                                <span xid="span24"><![CDATA[报名]]></span>  
                                 <span xid="span26" bind-text="ref('fRecord')" />  
-                                <span xid="span27">笔</span>  
+                                <span xid="span27"><![CDATA[人]]></span>  
                                 <span xid="span28" bind-text="ref('fPostage')" class="pull-right" /> 
                               </div> 
                             </div></div> 
@@ -253,15 +253,44 @@
             </div> 
           </div> 
         </div>  
-        <div class="x-contents-content x-cards" xid="microContent"> 
-          <div component="$UI/system/components/justep/windowContainer/windowContainer"
-            class="x-window-container" xid="microContainer" autoLoad="true"/> 
-        </div>  
+        <div class="x-contents-content x-cards" xid="jigouContent"> 
+          <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar" xid="panel6">
+   <div class="x-panel-top" xid="top2"><div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar tb-index" xid="titleBar2">
+   <div class="x-titlebar-left" xid="left1">
+    
+  <a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-label" label="全部机构" xid="button2" style="color:#FFFFFF;font-size:xx-large;background-color:transparent;float:right;position:relative;">
+   
+   <span xid="span23" style="font-size:large;">全部机构</span></a><a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-label" label="优惠机构" xid="button3" style="color:#FFFFFF;font-size:xx-large;background-color:transparent;float:right;position:relative;">
+   
+   <span xid="span25" style="font-size:large;">优惠机构</span></a></div> 
+   
+   <div class="x-titlebar-title tb-searchBox" xid="title1" bind-click="searchBtnClick">
+   <i xid="i12" class="icon-ios7-search-strong"></i>
+   <span style="font-size:small;" xid="span22"><![CDATA[请输入查询的机构]]></span>
+   <div xid="div9"></div></div><div class="x-titlebar-right reverse" xid="right1">
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon" label="button" xid="button10" icon="icon-android-more">
+     <i xid="i11" class="icon-android-more"></i>
+     <span xid="span21"></span></a> </div> 
+  </div>
+  <div xid="div10"><div xid="div11" class="col-xs-10 pull-left tb-nopadding"><div component="$UI/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified" tabbed="true" xid="buttonGroup2" style="height:40px;"><a component="$UI/system/components/justep/button/button" class="btn btn-link" label="全部分类" xid="fenleiBtn" icon="linear linear-user">
+   <i xid="i15" class="linear linear-user"></i>
+   <span xid="span29">全部分类</span></a>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-label" label="全城排序" xid="quanchengBtn">
+   <i xid="i16"></i>
+   <span xid="span30">全城排序</span></a>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-link" label="智能排序" xid="zhinengBtn" icon="linear linear-user">
+   <i xid="i17" class="linear linear-user"></i>
+   <span xid="span31">智能排序</span></a></div></div>
+  <div xid="div15" class="col-xs-2 pull-left text-center tb-nopadding"><div component="$UI/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified" tabbed="true" xid="buttonGroup3" style="height:60px;"><a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon" xid="button9" icon="glyphicon glyphicon-th-list">
+   <i xid="i19" class="glyphicon glyphicon-th-list"></i>
+   </a></div></div></div></div>
+   <div class="x-panel-content" xid="content1"></div>
+   </div></div>  
         <div class="x-contents-content x-cards" xid="foundContent"> 
           <div component="$UI/system/components/justep/windowContainer/windowContainer"
             class="x-window-container" xid="foundContainer" autoLoad="true"/> 
         </div>  
-        <div class="x-contents-content x-cards" xid="shoppingContent" onInactive="shoppingContentInactive"> 
+        <div class="x-contents-content x-cards" xid="xuankeContent" onInactive="shoppingContentInactive"> 
           <div component="$UI/system/components/justep/windowContainer/windowContainer"
             class="x-window-container" xid="shoppingContainer" autoLoad="true"/> 
         </div>  
@@ -280,7 +309,7 @@
           <span xid="span1">首页</span> 
         </a>  
         <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top"
-          label="微淘" xid="microBtn" icon="linear linear-envelope" target="microContent"> 
+          label="机构" xid="jigouBtn" icon="linear linear-sync" target="jigouContent"> 
           <i xid="i2" class="linear linear-sync"/>  
           <span xid="span2">机构</span> 
         </a>  
@@ -290,13 +319,13 @@
           <span xid="span3">发现</span> 
         </a>  
         <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top"
-          label="购物车" xid="shoppingCartBtn" icon="icon-ios7-cart"
-          target="shoppingContent"> 
+          label="选课" xid="xuankeBtn" icon="icon-ios7-cart"
+          target="xuankeContent"> 
           <i xid="i4" class="icon-ios7-cart icon"/>  
           <span xid="span4">选课</span> 
         </a>  
         <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top"
-          label="我的商城" xid="userBtn" icon="icon-person" target="userContent"> 
+          label="我的" xid="userBtn" icon="icon-person" target="userContent"> 
           <i xid="i5" class="icon icon-person"/>  
           <span xid="span5">我的</span> 
         </a> 
