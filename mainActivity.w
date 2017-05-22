@@ -254,20 +254,20 @@
           </div> 
         </div>  
         <div class="x-contents-content x-cards" xid="jigouContent"> 
-          <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar" xid="panel6">
-   <div class="x-panel-top" xid="top2"><div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar tb-index" xid="titleBar2">
+          <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-has-iosstatusbar" xid="panel6">
+   <div class="x-panel-top" xid="top2"><div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar2">
    <div class="x-titlebar-left" xid="left1">
     
-  <a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-label" label="全部机构" xid="button2" style="color:#FFFFFF;font-size:xx-large;background-color:transparent;float:right;position:relative;">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-label" label="全部机构" xid="button2" style="color:#FFFFFF;font-size:xx-large;background-color:transparent;float:right;">
    
-   <span xid="span23" style="font-size:large;">全部机构</span></a><a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-label" label="优惠机构" xid="button3" style="color:#FFFFFF;font-size:xx-large;background-color:transparent;float:right;position:relative;">
+   <span xid="span23" style="font-size:medium;position:relative;" class="list-group">全部机构</span></a><a component="$UI/system/components/justep/button/button" class="btn btn-lg btn-only-label " label="优惠机构" xid="button3" style="color:#FFFFFF;font-size:xx-large;background-color:transparent;float:right;">
    
-   <span xid="span25" style="font-size:large;">优惠机构</span></a></div> 
+   <span xid="span25" style="font-size:medium;position:relative;" class="list-group">优惠机构</span></a></div> 
    
-   <div class="x-titlebar-title tb-searchBox" xid="title1" bind-click="searchBtnClick">
+   <div class="x-titlebar-title tb-searchBox " xid="title1" bind-click="searchBtnClick">
    <i xid="i12" class="icon-ios7-search-strong"></i>
    <span style="font-size:small;" xid="span22"><![CDATA[请输入查询的机构]]></span>
-   <div xid="div9"></div></div><div class="x-titlebar-right reverse" xid="right1">
+   <div xid="div9"></div></div><div class="x-titlebar-right reverse " xid="right1">
     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon" label="button" xid="button10" icon="icon-android-more">
      <i xid="i11" class="icon-android-more"></i>
      <span xid="span21"></span></a> </div> 
@@ -295,9 +295,101 @@
             class="x-window-container" xid="shoppingContainer" autoLoad="true"/> 
         </div>  
         <div class="x-contents-content x-cards" xid="userContent"> 
-          <div component="$UI/system/components/justep/windowContainer/windowContainer"
-            class="x-window-container" xid="userContainer" autoLoad="true"/> 
-        </div> 
+          <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="contents1">
+   <div class="x-contents-content" xid="signupcontent"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-has-iosstatusbar" xid="panel9">
+   <div class="x-panel-top" xid="top5"><div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar3">
+   <div class="x-titlebar-left" xid="left2">
+    <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-left" label="返回" xid="backBtn" icon="icon-chevron-left" onClick="{operation:'window.close'}">
+     <i xid="i13" class="icon-chevron-left"></i>
+     <span xid="span16">返回</span></a> </div> 
+   <div class="x-titlebar-title" xid="title2"></div>
+   <div class="x-titlebar-right reverse" xid="right2"></div></div></div>
+   
+   <div class="x-panel-content  x-cards" xid="content8">
+   <div xid="listGroup4" class="list-group" style="position:fixed;top:20%;bottom:80%;">
+    <div class="list-group-item" xid="div34">
+     <div class="input-group" xid="div32">
+      <span class="input-group-addon" xid="span40">
+       <i class="icon-ios7-contact" xid="i26"></i></span> 
+      <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="nameInput" placeHolder="邮箱/手机号"></input></div> </div> 
+    <div class="list-group-item" xid="div33">
+     <div class="input-group" xid="div31">
+      <span class="input-group-addon" xid="span41">
+       <i class="icon-unlocked" xid="i25"></i></span> 
+      <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="passwordInput" placeHolder="密码"></input></div> </div> </div> 
+   <a component="$UI/system/components/justep/button/button" class="btn list-group x-black btn-only-label btn-block" label="登录" xid="loginBtn" style="position:fixed;top:55%;">
+    <i xid="i27"></i>
+    <span xid="span42">登录</span></a> 
+   <div class="text-muted" bind-text="'还可以选择以下方式登录'" xid="div35" style="position:fixed;top:65%;"></div>
+   <div class="list-group" xid="listGroup5" style="position:fixed;top:70%;">
+    <div xid="div36" class="list-group">
+     <div component="$UI/system/components/bootstrap/row/row" class="x-row  text-center" xid="row5" style="width:100%;">
+      <div class="x-col " xid="col8">
+       <img alt="" xid="image21" class="center-block tb-img5" src="$UI/STwo/main/img/qq.png"></img>
+       <div xid="div39" class="text-muted"></div></div> 
+      <div class="x-col " xid="col11">
+       <img src="$UI/STwo/main/img/weixin.png" alt="" xid="image22" class="center-block tb-img5"></img>
+       <div xid="div40" class="text-muted"></div></div> 
+      <div class="x-col " xid="col12">
+       <img src="$UI/STwo/main/img/weibo.png" alt="" xid="image23" class="center-block tb-img5"></img>
+       <div xid="div41" class="text-muted"></div></div> </div> 
+     <div xid="div37" class="list-group" style="position:relative;top:85%;">
+      <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-sm btn-only-icon pull-right" label="button" xid="button5" icon="icon-ios7-arrow-right text-muted" target="signincontent" style="color:#0000FF;">
+       <i xid="i28" class="icon-ios7-arrow-right text-muted"></i></a> 
+      <span xid="span44" class="text-black">没有账号？</span>
+      <span class="text-danger" xid="register">注册</span></div> </div> </div> 
+   <img src="$UI/STwo/main/img/signupImg.jpeg" alt="" xid="image19" style="height:100%;width:100%;color:#FFFFFF;" class="list-group"></img></div></div></div>
+  <div class="x-contents-content" xid="PersonInfocontent"></div><div class="x-contents-content" xid="signincontent"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel10">
+   <div class="x-panel-top" xid="top7">
+   <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar4">
+    <div class="x-titlebar-left" xid="left3">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-left" label="返回" xid="button6" icon="icon-chevron-left" onClick="{operation:'window.close'}">
+      <i xid="i29" class="icon-chevron-left"></i>
+      <span xid="span45">返回</span></a> </div> 
+    <div class="x-titlebar-title" xid="title3"></div>
+    <div class="x-titlebar-right reverse" xid="right3"></div></div> </div><div class="x-panel-content" xid="content10"><div xid="listGroup10" class="list-group" style='position:fixed;top:20%;bottom:80%;'>
+   <div class="list-group" xid="div50" style="background-color:transparent;">
+    <div class="input-group" xid="div51">
+     <span class="input-group-addon" xid="span54">
+      <i class="icon-ios7-contact" xid="i36"></i></span> 
+     <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input4" placeHolder="邮箱/手机号" style="background-color:transparent;"></input></div> </div> 
+   <div class="list-group" xid="div52" style="background-color:transparent;">
+    <div class="input-group" xid="div53">
+     <span class="input-group-addon" xid="span53">
+      <i class="icon-unlocked" xid="i37"></i></span> 
+     <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input3" placeHolder="密码" style="background-color:transparent;"></input></div> </div> 
+  <div class="list-group" xid="div63" style="background-color:transparent;">
+   <div class="input-group" xid="div64">
+     
+    
+  <div component="$UI/system/components/bootstrap/row/row" class="row" xid="row11">
+   <div class="col col" xid="col23" style="float:left;">
+  <span class="input-group-addon" xid="span64">
+   <i class="linear linear-exit" xid="i45"></i></span></div><div class="col-xs-6" xid="col24"><input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input6" placeHolder="输入验证码" style="background-color:transparent;"></input></div>
+   <div class="col col-xs-4" xid="col26"><a component="$UI/system/components/justep/button/button" class="btn" label="获取验证码" xid="button18" style="background-color:transparent;color:#FFFFFF;font-size:medium;">
+   <i xid="i44" class="linear linear-phonehandset"></i>
+   <span xid="span62" style="font-size:medium;">获取验证码</span></a></div></div></div> </div></div>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-only-label btn-block" label="机构注册" xid="button14" style="position:fixed;top:55%;color:#FFFFFF;font-size:large;">
+   <i xid="i38"></i>
+   <span xid="span55" style="font-size:large;">机构注册</span></a>
+  <a component="$UI/system/components/justep/button/button" class="btn  btn-only-label btn-block" label="学员注册" xid="button16" style="position:fixed;top:63%;color:#FFFFFF;font-size:large;">
+   <i xid="i40"></i>
+   <span xid="span58" style="font-size:large;">学员注册</span></a><div class="text-muted" bind-text="'还可以选择以下方式注册'" xid="div54" style="position:fixed;top:72%;"></div>
+  <div class="list-group" xid="listGroup13" style="position:fixed;top:73%;">
+   <div component="$UI/system/components/bootstrap/row/row" class="x-row  text-center" xid="row9" style="width:100%;">
+   <div class="x-col " xid="col22">
+    <img alt="" xid="image34" class="center-block tb-img5" src="$UI/STwo/main/img/qq.png"></img>
+    <div xid="div58" class="text-muted"></div></div> 
+   <div class="x-col " xid="col21">
+    <img src="$UI/STwo/main/img/weixin.png" alt="" xid="image33" class="center-block tb-img5"></img>
+    <div xid="div60" class="text-muted"></div></div> 
+   <div class="x-col " xid="col20">
+    <img src="$UI/STwo/main/img/weibo.png" alt="" xid="image32" class="center-block tb-img5"></img>
+    <div xid="div59" class="text-muted"></div></div> </div></div>
+  <img src="$UI/STwo/main/img/signin.jpg" alt="" xid="image31" style="height:100%;width:100%;color:#FFFFFF;" class="list-group"></img>
+  </div>
+   </div></div></div>
+  </div> 
       </div> 
     </div>  
     <div class="x-panel-bottom" xid="bottom1" height="55"> 
